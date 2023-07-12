@@ -66,6 +66,10 @@ pre {
   background-color: var(--primary-color);
   color: #fff;
   height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar ul {
@@ -118,7 +122,7 @@ pre {
   height: 350px;
   width: 400px;
   padding: 40px;
-  z-index: 100;
+  z-index: 99;
   justify-self: flex-end;
   animation: slideInFromRight 1s ease-in;
 }
@@ -215,6 +219,7 @@ pre {
 /* Features */
 .features-head img,
 .docs-head img {
+  margin-top: 30px;
   width: 200px;
   justify-self: flex-end;
 }
